@@ -37,7 +37,7 @@
 	overflow: hidden;
 	border: $border-width--card $border-color--card solid;
 	border-radius: $border-radius--card;
-	// box-shadow: $box-shadow--level-03;
+	//box-shadow: $box-shadow--level-03;
 	padding: $spacing--m;
 	
 	@include mq-s {
@@ -56,7 +56,7 @@
 		padding-top: 0;
 		padding-right: 0;
 		padding-left: 0;
-
+		
 		figure ~ * {
 			margin-right: $spacing--m;
 			margin-left: $spacing--m;
